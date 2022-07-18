@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #0e4f99;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@
 
 .code {
   background: #0a0a0a;
-  color: #f3f3f3;
+  color: #ffffff;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -89,8 +89,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  /* in the grid section, active state color */
+  color: #127349;
+  border-color: #127349;
 }
 
 .card h2 {
@@ -109,6 +110,7 @@
   margin-left: 0.5rem;
 }
 
+/* if 600px exceed, column -> grid */
 @media (max-width: 600px) {
   .grid {
     width: 100%;
