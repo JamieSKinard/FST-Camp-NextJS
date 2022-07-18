@@ -112,6 +112,10 @@
 
 /* if 600px exceed, column -> grid */
 @media (max-width: 600px) {
+  .description {
+    width: 100%;
+    flex-direction: column;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
